@@ -17,3 +17,4 @@ RUN cabal install --only-dependencies
 RUN cabal configure
 RUN cabal build
 #RUN ./dist/build/run-elm-website/run-elm-website
+EXPOSE 8000
